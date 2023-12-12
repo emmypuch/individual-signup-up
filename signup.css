@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+/* Logo Section */
+.logo-section {
+    padding: 3rem;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #000B0A;
+}
+
+.heading p {
+    font-size: 0.9rem;
+    color: #737373;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
+/* Form Section */
+.form-section {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    display: block;
+    font-size: 0.8rem;
+    color: #011C34;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    outline: none;
+    color: #737373;
+}
+
+input:focus,
+select:focus {
+    border-color: #2EC4B6;
+    box-shadow: 0 0 5px #2EC4B6;
+}
+
+label {
+    transition: color 0.3s ease;
+}
+
+input:focus+label {
+    color: #2EC4B6;
+}
+
+.btn input {
+    background-color: #2EC4B6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p.text {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: #2EC4B6;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+     .logo-section {
+        padding: 1rem;
+    }
+
+    .form-section {
+        margin-top: 1rem;
+    }
+}
