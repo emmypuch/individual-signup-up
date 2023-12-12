@@ -9,15 +9,13 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 30px;
 }
 
 /* Logo Section */
 .logo-section {
-    padding: 3rem;
-    max-width: 800px;
+    padding: 10rem;
 }
 
 h1 {
@@ -26,7 +24,7 @@ h1 {
 }
 
 .heading p {
-    font-size: 0.9rem;
+    font-size: 13px;
     color: #737373;
     margin-top: 15px;
     line-height: 1.8;
@@ -179,5 +177,10 @@ a {
 
     .heading-mobile img {
         width: 50px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
     }
 }
