@@ -32,6 +32,10 @@ h1 {
     line-height: 1.8;
 }
 
+.heading-mobile {
+    display: none;
+}
+
 /* Form Section */
 .form-section {
     max-width: 400px;
@@ -136,11 +140,44 @@ a {
         gap: 10px;
     }
 
-     .logo-section {
-        padding: 1rem;
-    }
-
     .form-section {
         margin-top: 1rem;
+    }
+
+    p.text {
+        max-width: 215px;
+        margin: auto;
+        padding-top: 10px;
+        line-height: 1.8;
+    }
+
+    .logo-section {
+        display: none;
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .heading-mobile {
+        display: inline;
+        padding: 1rem;
+        max-width: 800px;
+    }
+
+    .heading-mobile h1 {
+        font-size: 2rem;
+        color: #000B0A;
+    }
+    
+    .heading-mobile p {
+        font-size: 0.9rem;
+        color: #737373;
+        margin-top: 15px;
+        line-height: 1.8;
+    }
+
+    .heading-mobile img {
+        width: 50px;
     }
 }
