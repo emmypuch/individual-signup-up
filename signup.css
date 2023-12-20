@@ -25,7 +25,7 @@ h1 {
 }
 
 .heading p {
-    font-size: 13px;
+    font-size: 11px;
     color: #737373;
     margin-top: 15px;
     line-height: 1.8;
@@ -37,7 +37,7 @@ h1 {
 
 /* Form Section */
 .form-section {
-    max-width: 400px;
+    max-width: 450px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -53,6 +53,7 @@ form {
 .flex {
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .field {
@@ -61,7 +62,7 @@ form {
 
 label {
     margin-bottom: 8px;
-    display: block;
+    display: inline-block;
     font-size: 0.8rem;
     color: #011C34;
     font-weight: bold;
@@ -151,6 +152,7 @@ a {
 
     .form-section {
         margin-top: 1rem;
+        margin: 15px;
     }
 
     p.text {
