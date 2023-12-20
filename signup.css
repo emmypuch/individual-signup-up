@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    background: #F7FDFC;
 }
 
 /* Logo Section */
@@ -63,6 +64,7 @@ label {
     display: block;
     font-size: 0.8rem;
     color: #011C34;
+    font-weight: bold;
 }
 
 input,
@@ -70,11 +72,13 @@ select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 3px;
     box-sizing: border-box;
     margin-top: 6px;
     outline: none;
     color: #737373;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 input:focus,
@@ -91,14 +95,21 @@ input:focus+label {
     color: #2EC4B6;
 }
 
-.btn input {
+.btn button {
     background-color: #2EC4B6;
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
     position: relative;
+    outline: none;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn button:hover {
+    background-color: #38ccbd;
 }
 
 .field:nth-child(6) {
@@ -120,7 +131,7 @@ input:focus+label {
 }
 
 p.text {
-    font-size: 11px;
+    font-size: 9.7px;
     text-align: center;
     margin-top: 10px;
 }
